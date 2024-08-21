@@ -37,4 +37,4 @@ const Food = ({ coords, top }) => {
     );
 };
 
-export default Food;
+export default Food

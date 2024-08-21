@@ -33,7 +33,7 @@ const Snake = ({ snake, top }) => {
                 );
             })}
         </>
-    );
-};
+    )
+}
 
-export default Snake;
+export default Snake

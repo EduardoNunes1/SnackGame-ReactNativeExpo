@@ -42,6 +42,7 @@ const Game = () => {
         maxY: ROWS - 1,
     }
 
+    
     function resetGame() {
         setSnake(SNAKE_START);
         setDirection(Direction.Right);

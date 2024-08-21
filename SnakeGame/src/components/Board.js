@@ -11,8 +11,8 @@ const Board = ({ rows, cols, top }) => {
                 <View style={styles.pixel} key={index}></View>
             ))}
         </View>
-    );
-};
+    )
+}
 
 const styles = StyleSheet.create({
     board: {
@@ -34,4 +34,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Board;
+export default Board
